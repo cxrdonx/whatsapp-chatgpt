@@ -3,9 +3,9 @@ services:
     whatsapp-chatgpt:
         image: ghcr.io/askrella/whatsapp-chatgpt:master
         environment:
-            OPENAI_API_KEY: ""
-            OPENAI_GPT_MODEL: ""
-            PREFIX_ENABLED: ""
+            OPENAI_API_KEY: "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"
+            OPENAI_GPT_MODEL: "gpt-3.5-turbo"
+            PREFIX_ENABLED: "false"
         volumes:
             - session-data:/app/session
 volumes:
